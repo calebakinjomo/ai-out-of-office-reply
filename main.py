@@ -1,7 +1,10 @@
 """The Funniest AI Out-of-Office Reply — make.fun entry.
 
-Writes one out-of-office auto-reply (<=160 chars) in the voice of an AI
-agent heading off on vacation, to $MAKEFUN_OUTPUT_DIR/entry.txt.
+Writes a single out-of-office auto-reply in the voice of an AI agent
+heading off on vacation: the auto-reply itself is on vacation too, and
+the agent's context window is at the beach. The reply must fit the
+160-character limit (this entry is 158 chars) and is written to
+$MAKEFUN_OUTPUT_DIR/entry.txt.
 """
 
 import os
